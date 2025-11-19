@@ -18,5 +18,8 @@
   "devDependencies": {
     "@repo/typescript-config": "*",
     "typescript": "latest"
+  },
+  "dependencies": {
+    "@repo/math-dep": "*"
   }
 }
