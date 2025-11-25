@@ -1,8 +1,7 @@
 {
   "extends": ["//"],
   "tasks": {
-    "build": {
-    },
-    "special-task": {} 
+    "build": {},
+    "special-task": {}
   }
 }

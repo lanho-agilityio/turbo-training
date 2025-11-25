@@ -1,10 +1,13 @@
 {
   "name": "@configs/prettier",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": true,
-  "type": "module",
-  "exports": {
-    "./base": "./base.js"
+  "license": "MIT",
+  "files": [
+    ".prettierrc.js"
+  ],
+  "dependencies": {
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.4.0"
   }
 }
-

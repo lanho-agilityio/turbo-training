@@ -20,6 +20,10 @@
     },
     "check-types": {
       "dependsOn": ["^check-types"]
+    },
+    "format": {
+      "cache": false,
+      "outputs": []
     }
   }
 }
