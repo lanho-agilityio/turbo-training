@@ -20,7 +20,7 @@ const delay = (message: string) =>
       })
   );
 
-Effect.log("Hello world!");
+Effect.log("123");
 
 export default function Page() {
   const [count, setCount] = useState(0);
