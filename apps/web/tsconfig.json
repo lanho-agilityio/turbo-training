@@ -1,9 +1,13 @@
 {
   "extends": "@toolings/typescript-config/nextjs.json",
   "compilerOptions": {
+    "strict": true,
     "plugins": [
       {
         "name": "next"
+      },
+       {
+        "name": "@effect/language-service"
       }
     ]
   },
