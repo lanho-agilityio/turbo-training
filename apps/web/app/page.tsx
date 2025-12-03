@@ -2,7 +2,44 @@
 import { useState, useMemo, useCallback, useEffect } from "react";
 import { sum } from "@repo/math/math.ts";
 import { Button } from "@repo/ui/components/button";
-import { Effect, Exit } from "effect";
+import { Effect, Random, Data, Exit, Either } from "effect";
+
+class HttpError extends Data.TaggedError("HttpError")<{}> {}
+
+class ValidationError extends Data.TaggedError("ValidationError")<{}> {}
+
+//      ┌─── Effect<string, HttpError | ValidationError, never>
+//      ▼
+const program = Effect.gen(function* () {
+  // Generate two random numbers between 0 and 1
+  const n1 = yield* Random.next;
+  const n2 = yield* Random.next;
+
+  // Simulate an HTTP error
+  if (n1 < 0.5) {
+    return yield* Effect.fail(new HttpError());
+  }
+  // Simulate a validation error
+  if (n2 < 0.5) {
+    return yield* Effect.fail(new ValidationError());
+  }
+
+  return "some result";
+});
+
+const recovered = Effect.gen(function* () {
+  //      ┌─── Either<string, HttpError | ValidationError>
+  //      ▼
+  const failureOrSuccess = yield* Effect.either(program);
+  if (Either.isLeft(failureOrSuccess)) {
+    // Failure case: you can extract the error from the `left` property
+    const error = failureOrSuccess.left;
+    return `Recovering from ${error._tag}`;
+  } else {
+    // Success case: you can extract the value from the `right` property
+    return failureOrSuccess.right;
+  }
+});
 
 const log = (message: string) => Effect.sync(() => console.log(message));
 
@@ -19,8 +56,6 @@ const delay = (message: string) =>
         }, 2000);
       })
   );
-
-Effect.log("123");
 
 export default function Page() {
   const [count, setCount] = useState(0);
