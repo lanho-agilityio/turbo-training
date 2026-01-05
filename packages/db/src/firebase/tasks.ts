@@ -150,7 +150,11 @@ export const deleteTasksByProjectId = (projectId: string) => {
       ],
     });
     if (response.data.length === 0) {
-      return yield* Effect.fail(new TaskNotFound());
+      return {
+        success: true,
+        data: [],
+        error: undefined,
+      };
     }
     const { config } = yield* (yield* Config).getConfig;
     const batch = writeBatch(config);

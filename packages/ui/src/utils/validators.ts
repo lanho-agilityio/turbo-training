@@ -22,7 +22,6 @@ export const setServerActionErrors = <T extends FieldValues>(
   fields: { [key: string]: string[] | string | undefined },
   setError: UseFormSetError<T>
 ) => {
-  console.log(fields);
   return Object.keys(fields).map((field: string) => {
     const errorMessage = Array.isArray(fields[field])
       ? fields[field].join("\r\n")
