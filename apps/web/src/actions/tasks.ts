@@ -105,7 +105,7 @@ export const addTaskToProject = async (
     ),
   );
   if (result.success && result.data) {
-    revalidateTag(TAGS.TASK_LIST, { expire: undefined });
+    revalidateTag(TAGS.TASK_LIST, 'max');
     revalidateTag(TAGS.PROJECT_DETAIL(result.data.projectId), {
       expire: undefined,
     });
@@ -171,8 +171,8 @@ export const editTask = async (
     ),
   );
   if (result.success && result.data) {
-    revalidateTag(TAGS.TASK_LIST, { expire: undefined });
-    revalidateTag(TAGS.TASK_DETAIL(taskId), { expire: undefined });
+    revalidateTag(TAGS.TASK_LIST, 'max');
+    revalidateTag(TAGS.TASK_DETAIL(taskId), 'max');
     revalidateTag(TAGS.TASK_DETAIL(result.data.slug), {
       expire: undefined,
     });
@@ -224,8 +224,8 @@ export const removeTask = async (
     ),
   );
   if (result.success && result.data) {
-    revalidateTag(TAGS.TASK_LIST, { expire: undefined });
-    revalidateTag(TAGS.TASK_DETAIL(taskId), { expire: undefined });
+    revalidateTag(TAGS.TASK_LIST, 'max');
+    revalidateTag(TAGS.TASK_DETAIL(taskId), 'max');
     revalidateTag(TAGS.TASK_DETAIL(result.data.slug), {
       expire: undefined,
     });

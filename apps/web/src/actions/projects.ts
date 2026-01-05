@@ -113,7 +113,7 @@ export const createProjectWithParticipants = async (
     ),
   );
   if (result.success && result.data) {
-    revalidateTag(TAGS.PROJECT_LIST, { expire: undefined });
+    revalidateTag(TAGS.PROJECT_LIST, 'max');
     redirect(ROUTES.ADMIN_PROJECT_DETAIL(result.data.id));
   }
   return result;
@@ -204,11 +204,11 @@ export const updateProjectWithParticipants = async (
     ),
   );
   if (result.success && result.data) {
-    revalidateTag(TAGS.PROJECT_LIST, { expire: undefined });
+    revalidateTag(TAGS.PROJECT_LIST, 'max');
     revalidateTag(TAGS.PROJECT_DETAIL(result.data.slug), {
       expire: undefined,
     });
-    revalidateTag(TAGS.PROJECT_DETAIL(id), { expire: undefined });
+    revalidateTag(TAGS.PROJECT_DETAIL(id), 'max');
     redirect(ROUTES.ADMIN_PROJECT_DETAIL(id));
   }
   return result;
@@ -268,8 +268,8 @@ export const removeProjectById = async (
     ),
   );
   if (result.success && result.data) {
-    revalidateTag(TAGS.TASK_LIST, { expire: undefined });
-    revalidateTag(TAGS.PROJECT_LIST, { expire: undefined });
+    revalidateTag(TAGS.TASK_LIST, 'max');
+    revalidateTag(TAGS.PROJECT_LIST, 'max');
     revalidateTag(TAGS.PROJECT_DETAIL(result.data.slug), {
       expire: undefined,
     });
@@ -329,9 +329,9 @@ export const archiveProjectById = async (
     ),
   );
   if (result.success && result.data) {
-    revalidateTag(TAGS.PROJECT_LIST, { expire: undefined });
-    revalidateTag(TAGS.PROJECT_DETAIL(id), { expire: undefined });
-    revalidateTag(TAGS.PROJECT_DETAIL(result.data.slug), { expire: undefined });
+    revalidateTag(TAGS.PROJECT_LIST, 'max');
+    revalidateTag(TAGS.PROJECT_DETAIL(id), 'max');
+    revalidateTag(TAGS.PROJECT_DETAIL(result.data.slug), 'max');
   }
   return result;
 };

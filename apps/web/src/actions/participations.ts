@@ -95,7 +95,7 @@ export const editParticipants = async (
     ),
   );
   if (result.success) {
-    revalidateTag(TAGS.PROJECT_DETAIL(projectId), { expire: undefined });
+    revalidateTag(TAGS.PROJECT_DETAIL(projectId), 'max');
   }
   return result;
 };
