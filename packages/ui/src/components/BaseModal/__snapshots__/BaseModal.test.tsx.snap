@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`BaseModal Component Should match snapshot 1`] = `<DocumentFragment />`;
+
+exports[`BaseModal Component Should not render when isOpen props is false 1`] = `<DocumentFragment />`;

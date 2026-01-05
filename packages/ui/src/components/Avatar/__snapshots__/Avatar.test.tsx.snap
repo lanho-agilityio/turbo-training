@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Avatar component Should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <img
+        alt="test user avatar"
+        class="rounded-lg"
+        data-nimg="1"
+        decoding="async"
+        height="50"
+        loading="lazy"
+        src="/_next/image?url=https%3A%2F%2Fi.seadn.io%2Fgae%2FgctNTZKmTRG5z7A56d1GOfh4pxaM_b-XtVrmFN4FE6269fZoIOhc5dtr4YVHaOGRiXkRBVTta91iuz344f6YpjCTda7sfOWC5qlp%3Fauto%3Dformat%26dpr%3D1%26w%3D3840&w=128&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fi.seadn.io%2Fgae%2FgctNTZKmTRG5z7A56d1GOfh4pxaM_b-XtVrmFN4FE6269fZoIOhc5dtr4YVHaOGRiXkRBVTta91iuz344f6YpjCTda7sfOWC5qlp%3Fauto%3Dformat%26dpr%3D1%26w%3D3840&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fi.seadn.io%2Fgae%2FgctNTZKmTRG5z7A56d1GOfh4pxaM_b-XtVrmFN4FE6269fZoIOhc5dtr4YVHaOGRiXkRBVTta91iuz344f6YpjCTda7sfOWC5qlp%3Fauto%3Dformat%26dpr%3D1%26w%3D3840&w=128&q=75 2x"
+        style="color: transparent;"
+        width="50"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <img
+      alt="test user avatar"
+      class="rounded-lg"
+      data-nimg="1"
+      decoding="async"
+      height="50"
+      loading="lazy"
+      src="/_next/image?url=https%3A%2F%2Fi.seadn.io%2Fgae%2FgctNTZKmTRG5z7A56d1GOfh4pxaM_b-XtVrmFN4FE6269fZoIOhc5dtr4YVHaOGRiXkRBVTta91iuz344f6YpjCTda7sfOWC5qlp%3Fauto%3Dformat%26dpr%3D1%26w%3D3840&w=128&q=75"
+      srcset="/_next/image?url=https%3A%2F%2Fi.seadn.io%2Fgae%2FgctNTZKmTRG5z7A56d1GOfh4pxaM_b-XtVrmFN4FE6269fZoIOhc5dtr4YVHaOGRiXkRBVTta91iuz344f6YpjCTda7sfOWC5qlp%3Fauto%3Dformat%26dpr%3D1%26w%3D3840&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fi.seadn.io%2Fgae%2FgctNTZKmTRG5z7A56d1GOfh4pxaM_b-XtVrmFN4FE6269fZoIOhc5dtr4YVHaOGRiXkRBVTta91iuz344f6YpjCTda7sfOWC5qlp%3Fauto%3Dformat%26dpr%3D1%26w%3D3840&w=128&q=75 2x"
+      style="color: transparent;"
+      width="50"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

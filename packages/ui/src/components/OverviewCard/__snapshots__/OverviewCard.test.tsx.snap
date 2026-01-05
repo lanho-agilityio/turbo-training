@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`OverviewCard component renders the OverviewCard match snapshot 1`] = `
+<div>
+  <div
+    class="relative group"
+  >
+    <a
+      class="flex flex-col rounded-lg p-5 border-gray-200 dark:bg-zinc-800 dark:border-gray-700 gap-4 border-2"
+      data-testid="card-wrapper"
+      href="/"
+    >
+      <div
+        class="relative block bg-zinc-200 rounded-lg aspect-video rounder-md"
+        data-testid="image-wrapper"
+      >
+        <img
+          alt="Website Design Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar, nisl sed commodo viverra, urna enim interdum ligula, vitae tempor lorem nibh tincidunt nisi. "
+          class="rounded-lg object-cover"
+          data-nimg="fill"
+          decoding="async"
+          fallbacksrc="/not-found.svg"
+          loading="lazy"
+          sizes="(max-width: 767px) 90vw,
+                (min-width: 768px) and (max-width: 1023px) 33vw,
+                (min-width: 1024px) 25vw"
+          src="http://localhost/_next/image?url=https%3A%2F%2Funsplash.com%2Fphotos%2Fperson-writing-on-white-paper-KxVlKiqQObU&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Funsplash.com%2Fphotos%2Fperson-writing-on-white-paper-KxVlKiqQObU&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Funsplash.com%2Fphotos%2Fperson-writing-on-white-paper-KxVlKiqQObU&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Funsplash.com%2Fphotos%2Fperson-writing-on-white-paper-KxVlKiqQObU&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Funsplash.com%2Fphotos%2Fperson-writing-on-white-paper-KxVlKiqQObU&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Funsplash.com%2Fphotos%2Fperson-writing-on-white-paper-KxVlKiqQObU&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Funsplash.com%2Fphotos%2Fperson-writing-on-white-paper-KxVlKiqQObU&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Funsplash.com%2Fphotos%2Fperson-writing-on-white-paper-KxVlKiqQObU&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Funsplash.com%2Fphotos%2Fperson-writing-on-white-paper-KxVlKiqQObU&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Funsplash.com%2Fphotos%2Fperson-writing-on-white-paper-KxVlKiqQObU&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Funsplash.com%2Fphotos%2Fperson-writing-on-white-paper-KxVlKiqQObU&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+        />
+      </div>
+      <div
+        class="flex flex-1 flex-col gap-1 dark:text-white min-w-0"
+      >
+        <div
+          class="flex items-center gap-2"
+        >
+          <div
+            class="w-fit flex items-center gap-2 px-2 py-1 bg-blue-950 rounded-md text-white text-sm"
+          >
+            <svg
+              class="w-2.5 h-2.5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 12 12"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.59998 4V6L6.84998 7.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M3.09998 1.66901C3.85974 1.22946 4.72223 0.998653 5.59998 1.00001C8.36148 1.00001 10.6 3.23851 10.6 6.00001C10.6 8.76151 8.36148 11 5.59998 11C2.83848 11 0.599976 8.76151 0.599976 6.00001C0.599976 5.08951 0.843476 4.23501 1.26898 3.50001"
+                stroke-linecap="round"
+              />
+            </svg>
+            Design Project
+          </div>
+          <div
+            class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-semibold rounded-sm w-fit px-1 text-[10px] truncate text-neutral-700"
+            data-testid="helper-text"
+          />
+        </div>
+        <div
+          class="flex justify-between items-center "
+        >
+          <div
+            class="text-md font-bold truncate text-white"
+            data-testid="title-text"
+          >
+            Website Design Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar, nisl sed commodo viverra, urna enim interdum ligula, vitae tempor lorem nibh tincidunt nisi. 
+          </div>
+          <div
+            class="font-normal text-xs dark:text-zinc-400 text-white"
+            data-testid="time-display"
+          >
+            3pm
+          </div>
+        </div>
+        <div
+          class="text-xs dark:text-white truncate pt-3 text-white"
+          data-testid="description-text"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar, nisl sed commodo viverra, urna enim interdum ligula, vitae tempor lorem nibh tincidunt nisi. Aliquam pellentesque metus non sollicitudin mattis. Cras quis auctor massa, at facilisis massa. Vivamus efficitur eros eget ante aliquet semper. Nunc tempus risus turpis, et sagittis felis consectetur eu. Integer luctus felis sed neque rutrum mattis. Quisque molestie tincidunt ligula, id fermentum dui dignissim quis. Nulla facilisi. Integer eget nulla a velit aliquet commodo vitae et leo. Aliquam erat volutpat. Cras nec arcu at dui blandit maximus. Curabitur rhoncus convallis arcu, et condimentum diam facilisis sollicitudin. Quisque in gravida nunc, sit amet semper tortor. Fusce dignissim pretium odio sit amet sagittis.
+        </div>
+        <div
+          class="flex justify-end pt-3"
+        >
+          <div
+            class="relative w-6 h-6 rounded-md"
+            data-testid="avatar-element"
+          >
+            <img
+              alt="avatar"
+              data-nimg="fill"
+              decoding="async"
+              fallbacksrc="/not-found.svg"
+              loading="lazy"
+              sizes="24px"
+              src="http://localhost/_next/image?url=%2Favatar.png&w=3840&q=75"
+              srcset="/_next/image?url=%2Favatar.png&w=32&q=75 32w, /_next/image?url=%2Favatar.png&w=48&q=75 48w, /_next/image?url=%2Favatar.png&w=64&q=75 64w, /_next/image?url=%2Favatar.png&w=96&q=75 96w, /_next/image?url=%2Favatar.png&w=128&q=75 128w, /_next/image?url=%2Favatar.png&w=256&q=75 256w, /_next/image?url=%2Favatar.png&w=384&q=75 384w, /_next/image?url=%2Favatar.png&w=640&q=75 640w, /_next/image?url=%2Favatar.png&w=750&q=75 750w, /_next/image?url=%2Favatar.png&w=828&q=75 828w, /_next/image?url=%2Favatar.png&w=1080&q=75 1080w, /_next/image?url=%2Favatar.png&w=1200&q=75 1200w, /_next/image?url=%2Favatar.png&w=1920&q=75 1920w, /_next/image?url=%2Favatar.png&w=2048&q=75 2048w, /_next/image?url=%2Favatar.png&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; border-radius: 100%;"
+            />
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+`;

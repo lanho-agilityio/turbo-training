@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ErrorContent component Render component correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container mx-auto flex flex-col items-center justify-center mt-[177px] sm:mt-14 lg:mt-52 mb-7.5"
+      >
+        <svg
+          class="w-40 h-40 text-red-500 md:h-80 md:w-80"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.953 2C6.465 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.493 2 11.953 2zM13 17h-2v-2h2v2zm0-4h-2V7h2v6z"
+          />
+        </svg>
+        <div
+          class="flex flex-col items-center gap-3 md:gap-5"
+        >
+          <h1
+            class="text-center font-bold text-2xl md:text-3xl"
+          >
+            Something went wrong
+          </h1>
+          <h2
+            class="text-center text-md md:text-xl"
+          >
+            The page you were trying to reach is currently unavailable.
+          </h2>
+          <button
+            class="flex items-center rounded-lg p-2 disabled:cursor-not-allowed bg-neutral-800 text-white hover:bg-neutral-700 dark:bg-gray-700 dark:hover:opacity-70 disabled:bg-neutral-300/50 w-[88px] mt-6 md:mt-2"
+            type="button"
+          >
+            Try again
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container mx-auto flex flex-col items-center justify-center mt-[177px] sm:mt-14 lg:mt-52 mb-7.5"
+    >
+      <svg
+        class="w-40 h-40 text-red-500 md:h-80 md:w-80"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.953 2C6.465 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.493 2 11.953 2zM13 17h-2v-2h2v2zm0-4h-2V7h2v6z"
+        />
+      </svg>
+      <div
+        class="flex flex-col items-center gap-3 md:gap-5"
+      >
+        <h1
+          class="text-center font-bold text-2xl md:text-3xl"
+        >
+          Something went wrong
+        </h1>
+        <h2
+          class="text-center text-md md:text-xl"
+        >
+          The page you were trying to reach is currently unavailable.
+        </h2>
+        <button
+          class="flex items-center rounded-lg p-2 disabled:cursor-not-allowed bg-neutral-800 text-white hover:bg-neutral-700 dark:bg-gray-700 dark:hover:opacity-70 disabled:bg-neutral-300/50 w-[88px] mt-6 md:mt-2"
+          type="button"
+        >
+          Try again
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

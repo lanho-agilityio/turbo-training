@@ -3,8 +3,15 @@
   "compilerOptions": {
     "baseUrl": ".",
     "module": "esnext",
-    "moduleResolution": "Bundler"
+    "moduleResolution": "Bundler",
+    "types": ["jest", "@testing-library/jest-dom"]
   },
-  "include": ["src", "src/**/*d.ts"],
+  "include": [
+    "src", 
+    "src/**/*d.ts", 
+    "jest.setup.js",
+    "**/*.test.ts",
+    "**/*.test.tsx"
+  ],
   "exclude": ["node_modules"]
 }

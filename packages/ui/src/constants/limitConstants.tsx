@@ -1,0 +1,14 @@
+const BASE_LIMIT_ITEMS = {
+  DEFAULT: 10,
+  BOARD_PAGE: 6,
+  RECENT_TASKS: 5,
+};
+
+export const SKELETON_LIMIT_ITEMS = {
+  ...BASE_LIMIT_ITEMS,
+};
+
+export const QUERY_LIMIT_ITEMS = {
+  SINGLE_RECORD: 1,
+  ...BASE_LIMIT_ITEMS,
+};
