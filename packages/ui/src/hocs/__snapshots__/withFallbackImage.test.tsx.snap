@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`withFallbackImage should render the image with the provided src 1`] = `
+<DocumentFragment>
+  <img
+    alt="image to test"
+    data-nimg="1"
+    data-testid="image"
+    decoding="async"
+    height="30"
+    loading="lazy"
+    src="http://localhost/_next/image?url=%2Foriginal-image.png&w=96&q=75"
+    srcset="/_next/image?url=%2Foriginal-image.png&w=48&q=75 1x, /_next/image?url=%2Foriginal-image.png&w=96&q=75 2x"
+    style="color: transparent;"
+    width="40"
+  />
+</DocumentFragment>
+`;

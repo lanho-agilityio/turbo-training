@@ -1,20 +1,13 @@
 {
-  "name": "with-tailwind",
+  "name": "turborepo-effect",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "check-types": "turbo run check-types",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "build": "turbo run build"
   },
   "devDependencies": {
-    "prettier": "^3.6.0",
-    "prettier-plugin-tailwindcss": "^0.7.1",
-    "turbo": "^2.6.1"
-  },
-  "engines": {
-    "node": ">=18"
+    "turbo": "^2.6.3"
   },
   "packageManager": "npm@10.5.2",
   "workspaces": [

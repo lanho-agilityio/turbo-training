@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Pagination component renders the Pagination with children 1`] = `
+<div>
+  <div
+    class="flex flex-row items-center gap-3"
+  >
+    <button
+      class="items-center p-2 disabled:cursor-not-allowed border border-gray-200 hover:bg-gray-100 dark:border-white dark:text-white text-black rounded-lg flex justify-center px-3 bg-zinc-100 dark:bg-neutral-700 dark:hover:bg-neutral-700 dark:hover:text-white opacity-80"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="mr-1"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 320 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
+          />
+        </svg>
+      </div>
+      Previous
+    </button>
+    <button
+      class="items-center p-2 disabled:cursor-not-allowed border border-gray-200 hover:bg-gray-100 dark:border-white dark:hover:bg-zinc-100 dark:text-white dark:hover:text-black text-black rounded-lg justify-center w-10 h-10 hidden md:block bg-zinc-300"
+      type="button"
+    >
+      1
+    </button>
+    <button
+      class="items-center p-2 disabled:cursor-not-allowed border border-gray-200 hover:bg-gray-100 bg-transparent dark:border-white dark:hover:bg-zinc-100 dark:text-white dark:hover:text-black text-black rounded-lg justify-center w-10 h-10 hidden md:block"
+      type="button"
+    >
+      2
+    </button>
+    <button
+      class="items-center p-2 disabled:cursor-not-allowed border border-gray-200 hover:bg-gray-100 bg-transparent dark:border-white dark:hover:bg-zinc-100 dark:text-white dark:hover:text-black text-black rounded-lg justify-center w-10 h-10 hidden md:block"
+      type="button"
+    >
+      3
+    </button>
+    <span
+      class="hidden md:block dark:text-white"
+    >
+      …
+    </span>
+    <button
+      class="items-center p-2 disabled:cursor-not-allowed border border-gray-200 hover:bg-gray-100 bg-transparent dark:border-white dark:hover:bg-zinc-100 dark:text-white dark:hover:text-black text-black rounded-lg justify-center w-10 h-10 hidden md:block"
+      type="button"
+    >
+      17
+    </button>
+    <button
+      class="items-center p-2 disabled:cursor-not-allowed border border-gray-200 hover:bg-gray-100 bg-transparent dark:border-white dark:hover:bg-zinc-100 dark:text-white dark:hover:text-black text-black rounded-lg flex justify-center px-3"
+      type="button"
+    >
+      Next
+      <div
+        class="ml-1"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 320 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+          />
+        </svg>
+      </div>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Pagination component should render match snapshot when total page === 0 1`] = `<DocumentFragment />`;
+
+exports[`PaginationWrapper component should render match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-row items-center gap-3"
+  >
+    <button
+      class="items-center p-2 disabled:cursor-not-allowed border border-gray-200 hover:bg-gray-100 dark:border-white dark:text-white text-black rounded-lg flex justify-center px-3 bg-zinc-100 dark:bg-neutral-700 dark:hover:bg-neutral-700 dark:hover:text-white opacity-80"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="mr-1"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 320 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
+          />
+        </svg>
+      </div>
+      Previous
+    </button>
+    <button
+      class="items-center p-2 disabled:cursor-not-allowed border border-gray-200 hover:bg-gray-100 dark:border-white dark:hover:bg-zinc-100 dark:text-white dark:hover:text-black text-black rounded-lg justify-center w-10 h-10 hidden md:block bg-zinc-300"
+      type="button"
+    >
+      1
+    </button>
+    <button
+      class="items-center p-2 disabled:cursor-not-allowed border border-gray-200 hover:bg-gray-100 bg-transparent dark:border-white dark:hover:bg-zinc-100 dark:text-white dark:hover:text-black text-black rounded-lg justify-center w-10 h-10 hidden md:block"
+      type="button"
+    >
+      2
+    </button>
+    <button
+      class="items-center p-2 disabled:cursor-not-allowed border border-gray-200 hover:bg-gray-100 bg-transparent dark:border-white dark:hover:bg-zinc-100 dark:text-white dark:hover:text-black text-black rounded-lg justify-center w-10 h-10 hidden md:block"
+      type="button"
+    >
+      3
+    </button>
+    <button
+      class="items-center p-2 disabled:cursor-not-allowed border border-gray-200 hover:bg-gray-100 bg-transparent dark:border-white dark:hover:bg-zinc-100 dark:text-white dark:hover:text-black text-black rounded-lg flex justify-center px-3"
+      type="button"
+    >
+      Next
+      <div
+        class="ml-1"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 320 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+          />
+        </svg>
+      </div>
+    </button>
+  </div>
+</DocumentFragment>
+`;

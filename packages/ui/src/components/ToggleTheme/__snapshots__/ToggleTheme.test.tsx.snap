@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ToggleTheme component renders the ToggleTheme match snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="flex items-center rounded-lg p-2 disabled:cursor-not-allowed border border-gray-200 bg-transparent dark:border-white dark:text-white w-full mt-2 hover:bg-black hover:text-white dark:hover:bg-black dark:hover:text-white border-none text-zinc-500"
+    data-testid="toggle-theme-button"
+    type="button"
+  >
+    <div
+      class="px-2"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
+        />
+        <path
+          d="M14 4c.34 0 .68.02 1.01.07C13.1 6.23 12 9.05 12 12s1.1 5.77 3.01 7.93c-.33.05-.67.07-1.01.07-4.41 0-8-3.59-8-8s3.59-8 8-8m0-2C8.48 2 4 6.48 4 12s4.48 10 10 10c1.82 0 3.53-.5 5-1.35-2.99-1.73-5-4.95-5-8.65s2.01-6.92 5-8.65A9.973 9.973 0 0 0 14 2z"
+        />
+      </svg>
+    </div>
+    <span>
+      Dark
+    </span>
+  </button>
+</DocumentFragment>
+`;
