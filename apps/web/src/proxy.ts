@@ -6,7 +6,9 @@ export const config = {
 };
 
 export function proxy(request: NextRequest) {
-  const token = request.cookies.get('next-auth.session-token');
+  const token =
+    request.cookies.get('next-auth.session-token') ||
+    request.cookies.get('__Host-next-auth.csrf-token');
   if (!token) {
     const url = request.nextUrl.clone();
     url.pathname = '/sign-in';
